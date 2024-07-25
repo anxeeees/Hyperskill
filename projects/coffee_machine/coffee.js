@@ -4,6 +4,13 @@ const input = require('sync-input')
 let waterNeeded = 200;
 let milkNeeded = 50;
 let beansNeeded = 15;
+let price; 
+
+let waterInMachine = 400;
+let milkInMachine = 540;
+let beansInMachine = 120;
+let cupsAvailable = 9;
+let moneyInMachine = 550;
 
 // Prompt the user for available ingredients
 console.log("Write how many ml of water the coffee machine has:");
